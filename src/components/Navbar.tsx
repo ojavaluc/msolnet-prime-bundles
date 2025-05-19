@@ -32,14 +32,20 @@ const Navbar = () => {
         
         <div className="flex items-center space-x-4">
           <a
+            href="#sobre"
+            className="text-sm md:text-base text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Sobre
+          </a>
+          <a
             href="#servicos"
-            className="text-sm md:text-base text-gray-300 hover:text-white transition-colors"
+            className="text-sm md:text-base text-gray-700 hover:text-gray-900 transition-colors"
           >
             Serviços
           </a>
           <a
             href="#vantagens"
-            className="text-sm md:text-base text-gray-300 hover:text-white transition-colors"
+            className="text-sm md:text-base text-gray-700 hover:text-gray-900 transition-colors"
           >
             Vantagens
           </a>

@@ -18,6 +18,11 @@ const Hero = () => {
             <p className="text-lg md:text-xl text-gray-300">
               Acesse os melhores conteúdos de streaming através da MSOL, sua provedora de serviços digitais.
             </p>
+            <div className="animate-fade-in opacity-0" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
+              <p className="text-base md:text-lg text-primary-msol font-medium">
+                <span className="font-bold">+20 anos</span> de experiência e excelência em atendimento ao cliente.
+              </p>
+            </div>
             <div className="pt-4">
               <a 
                 href="#contato" 
