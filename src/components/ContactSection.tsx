@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Whatsapp } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
@@ -95,7 +95,7 @@ const ContactSection = () => {
                   rel="noopener noreferrer" 
                   className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-md transition-colors"
                 >
-                  <Whatsapp size={20} />
+                  <MessageCircle size={20} />
                   <span className="font-medium">Conversar no WhatsApp</span>
                 </a>
                 
