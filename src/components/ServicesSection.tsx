@@ -68,6 +68,25 @@ const ServicesSection = () => {
             <ServiceCard key={index} {...service} />
           ))}
         </div>
+        
+        <div className="mt-16 flex flex-wrap justify-center gap-8 items-center">
+          <div className="text-center p-6">
+            <img src="/logos/premiere.png" alt="Premiere" className="h-20 mx-auto mb-4" />
+            <p className="font-medium text-primary-premiere">Premiere</p>
+          </div>
+          <div className="text-center p-6">
+            <img src="/logos/max.png" alt="Max" className="h-20 mx-auto mb-4" />
+            <p className="font-medium text-primary-max">Max</p>
+          </div>
+          <div className="text-center p-6">
+            <img src="/logos/paramount.png" alt="Paramount+" className="h-20 mx-auto mb-4" />
+            <p className="font-medium text-primary-paramount">Paramount+</p>
+          </div>
+          <div className="text-center p-6">
+            <img src="/logos/msoltv.png" alt="MSOL TV" className="h-20 mx-auto mb-4" />
+            <p className="font-medium text-primary-msol">MSOL TV</p>
+          </div>
+        </div>
       </div>
     </section>
   );

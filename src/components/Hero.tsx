@@ -29,13 +29,20 @@ const Hero = () => {
           </div>
           
           <div className="w-full md:w-1/2 relative">
-            <div className="relative w-full h-[300px] md:h-[400px]">
+            <div className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center">
               <img 
                 src="/logos/msol.png" 
                 alt="MSOL Net" 
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-72 md:w-96 animate-float"
+                className="w-72 md:w-96 animate-float drop-shadow-2xl"
               />
               <div className="absolute top-0 left-0 w-full h-full bg-primary-msol/10 blur-[100px] rounded-full"></div>
+            </div>
+            
+            <div className="flex justify-center gap-4 mt-8">
+              <img src="/logos/premiere.png" alt="Premiere" className="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+              <img src="/logos/max.png" alt="Max" className="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+              <img src="/logos/paramount.png" alt="Paramount+" className="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+              <img src="/logos/msoltv.png" alt="MSOL TV" className="h-12 opacity-60 hover:opacity-100 transition-opacity" />
             </div>
           </div>
         </div>
