@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="min-h-screen pt-20 flex flex-col justify-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background z-10"></div>
-        <div className="absolute top-0 left-0 right-0 bottom-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_0%,transparent_70%)] from-primary-msol/30 to-transparent"></div>
+        <div className="absolute top-0 left-0 right-0 bottom-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-from)_0%,transparent_70%)] from-primary/30 to-transparent"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-20">
@@ -19,7 +19,7 @@ const Hero = () => {
               Acesse os melhores conteúdos de streaming através da MSOL, sua provedora de serviços digitais.
             </p>
             <div className="animate-fade-in opacity-0" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
-              <p className="text-base md:text-lg text-primary-msol font-medium">
+              <p className="text-base md:text-lg text-primary font-medium">
                 <span className="font-bold">+20 anos</span> de experiência e excelência em atendimento ao cliente.
               </p>
             </div>
@@ -40,7 +40,7 @@ const Hero = () => {
                 alt="MSOL Net" 
                 className="w-72 md:w-96 animate-float drop-shadow-2xl"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-primary-msol/10 blur-[100px] rounded-full"></div>
+              <div className="absolute top-0 left-0 w-full h-full bg-primary/10 blur-[100px] rounded-full"></div>
             </div>
             
             <div className="flex justify-center gap-4 mt-8">

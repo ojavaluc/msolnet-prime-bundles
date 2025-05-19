@@ -4,7 +4,7 @@ import { Award, HeartHandshake, Clock, Shield } from "lucide-react";
 const ProviderSection = () => {
   return (
     <section id="sobre" className="py-20 relative overflow-hidden">
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-blue-900/10 via-blue-800/5 to-transparent"></div>
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-primary/10 via-blue-800/5 to-transparent"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
@@ -18,13 +18,13 @@ const ProviderSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div className="relative">
-            <div className="absolute -top-20 -left-20 w-64 h-64 bg-primary-msol/5 rounded-full blur-3xl animate-pulse-soft"></div>
+            <div className="absolute -top-20 -left-20 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-pulse-soft"></div>
             <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-blue-600/5 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "1.5s" }}></div>
             
             <div className="relative z-10 bg-gradient-to-br from-gray-900/80 to-gray-900/40 backdrop-blur-sm border border-gray-800/50 rounded-2xl p-8 shadow-xl animate-scale-in opacity-0" style={{ animationFillMode: "forwards", animationDelay: "0.4s" }}>
               <h3 className="text-2xl font-bold mb-6 text-gradient">Nossa História</h3>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Com mais de <span className="text-primary-msol font-semibold">20 anos de experiência</span> no mercado, 
+                Com mais de <span className="text-primary font-semibold">20 anos de experiência</span> no mercado, 
                 a MSOL se destaca como uma provedora que prioriza a excelência no atendimento 
                 ao cliente e a qualidade dos serviços prestados.
               </p>
@@ -39,7 +39,7 @@ const ProviderSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
-                icon: <Award className="text-primary-msol" />,
+                icon: <Award className="text-primary" />,
                 title: "Excelência",
                 description: "Comprometimento com a qualidade em todos os aspectos do serviço"
               },
@@ -49,7 +49,7 @@ const ProviderSection = () => {
                 description: "Suporte técnico especializado e atendimento humanizado"
               },
               {
-                icon: <Clock className="text-primary-msol" />,
+                icon: <Clock className="text-primary" />,
                 title: "Experiência",
                 description: "Mais de 20 anos atuando no mercado de telecomunicações"
               },
